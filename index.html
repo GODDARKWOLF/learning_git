@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning HTML</title>
+  <!-- Links to our stylesheets -->
+   <link rel="stylesheet" href="CSS/main.css">
+</head>
+
+<body>
+
+    <section class="wrapper-main">
+        <form action="example.html" method="post">
+            <label for="Firstname">Firstname</label>
+            <br>
+            <input type="text" id="Firstname" name="Firstname" placeholder="Firstname" >
+            <br><br>
+            <label for="Message">Write something RAD</label>
+            <br>
+            <textarea name="Message" id="Message" placeholder="write something...."></textarea>
+            <br><br>
+
+            <label>Pick your Eyecolor</label>
+            <br>
+            <input type="radio" id="EyeColorBrown" name="Eyecolor" value="Brown">
+            <label for="EyeColorBrown">Brown</label>
+            <input type="radio" id="EyeColorBlue" name="Eyecolor" value="Blue">
+            <label for="EyeColorBlue">Blue</label>
+            <input type="radio" id="EyeColorBlack" name="Eyecolor" value="Black">
+            <label for="EyeColorBlack">Black</label>
+            <br><br>
+
+            <label>What pet do you have?</label>
+            <br>
+            <input type="checkbox" id="petcat" name="petcat" value="Cat">
+            <label for="petcat">Cat</label>
+            <input type="checkbox" id=petdog" name="petdog" value="Dog">
+            <label for="petdog">Dog</label>
+            <input type="checkbox" id="petfish" name="petfish" value="Fish">
+            <label for="petfish">Fish</label>
+            <br><br>
+
+            <label for="cartype">Car type you own?</label>
+            <br>
+            <select name="cartype" id="cartype">
+              <option value="none">none</option>
+              <option value="Ford">Ford</option>
+              <option value="Mustang">Mustang</option>
+              <option value="Toyota">Toyota</option>
+            </select>
+            <br><br>
+
+            <button type="submit" value="submit">send info</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
