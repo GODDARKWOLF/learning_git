@@ -6,7 +6,11 @@
 body
 {
   font-family: Roboto;
+<<<<<<< HEAD
   margin: 10px;
+=======
+  background-color: blueviolet;
+>>>>>>> feature-3
 }
 
 .wrapper-main
